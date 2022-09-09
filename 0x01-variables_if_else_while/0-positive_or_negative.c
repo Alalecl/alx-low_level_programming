@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry
+ *main - contains if loop to sort out last digit of a random number
  *
- *Return: Always 0 (Success)
+ *Return: - Always 0 (Success)
  */
-
 int main(void)
 {
 int n;
@@ -26,4 +25,5 @@ else
 {
 printf("%d is zero\n", n);
 }
- return (0);
+return (0);
+}
