@@ -1,15 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - print base 10 numbers
- * Return: 0 if successful
+ * main - Entry print single digit numbers to base 10
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int n;
+int i;
+for (i = '0'; i <= '9' ; i++)
+{
+putchar(i);
+}
+putchar('\n');
 
-for (n = 0; n < 10; n++)
-putchar("%d", n);
-putchar("\n");
 return (0);
 }
