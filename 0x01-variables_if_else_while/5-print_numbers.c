@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- *main -Entry
- *
- *Return : Always 0(success)
+ * main - print base 10 numbers
+ * Return: 0 if successful
  */
+
 int main(void)
 {
-  int n = 0;
-  while (n < 20)
-    {
-      printf("%d\n", n);
-      n++;
-    }
-	return (0);
-    }
+int n = 0;
+
+while (n < 10)
+{
+printf("%d", n);
+n++;
+}
+printf("\n");
+return (0);
+}

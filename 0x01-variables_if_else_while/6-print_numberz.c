@@ -1,17 +1,15 @@
 #include <stdio.h>
 /**
- *main -Entry
- *
- *Return : Always 0(success)
+ * main - print base 10 numbers
+ * Return: 0 if successful
  */
+
 int main(void)
 {
-  char i = '0'i = '0';
- while (i < 10)
-{
- putchar(i);
- n++;
-}
- putchar('\n');
- return (0);
+int n;
+
+for (n = 0; n < 10; n++)
+printf("%d", n);
+printf("\n");
+return (0);
 }
