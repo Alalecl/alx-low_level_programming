@@ -2,8 +2,10 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 1
  */
 int main(void)
 {
-  fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n10-19\n", stdo\n
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n10-19\n", stdo\n);
+return (1)
+}
