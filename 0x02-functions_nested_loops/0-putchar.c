@@ -1,19 +1,19 @@
 #include "main.h"
+
 /**
-*  Print _putchar followed by new line
-*  Return is always 0
-*/
+ * main - entry point
+ * Return - 0 on success
+ */
 int main(void)
 {
-_putchar(_);
-_putchar(p);
-_putchar(u);
-_putchar(t);
-_putchar(c);
-_putchar(h);
-_putchar(a);
-_putchar(r);
+	char strng[] = "_putchar";
+	int i = 0;
 
-return(0);
+	while (strng[i] != '\0')
+	{
+		_putchar(strng[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
-
