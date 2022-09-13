@@ -19,7 +19,7 @@ int main(void)
 		printf("%i", next);
 		if (i != 98)
 		{
-			priintf(", ");
+			printf(", ");
 		}
 		i++;
 	}
