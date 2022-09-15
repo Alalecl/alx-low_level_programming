@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - checks for digit 
+ * main - checks for digit
  * return 1 if trur
  * return 0 otherwise
  */
